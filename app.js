@@ -1,1 +1,1 @@
-var x = 5; console.log('Привет');
+console.log('Привет');
