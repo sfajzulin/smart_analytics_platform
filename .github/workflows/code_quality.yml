@@ -1,0 +1,25 @@
+name: Code Quality Assurance
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ develop ]
+
+jobs:
+  lint_and_test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Выкачивание исходного кода из Git
+      uses: actions/checkout@v4
+
+    - name: Развертывание среды Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Установка зависимостей проекта
+      run: npm install
+
+    - name: Запуск статического анализа (Линтера)
+      run: npx eslint .
