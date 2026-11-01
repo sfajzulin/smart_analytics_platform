@@ -1,0 +1,24 @@
+{
+  "name": "smart_analytics_platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfajzulin/smart_analytics_platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sfajzulin/smart_analytics_platform/issues"
+  },
+  "homepage": "https://github.com/sfajzulin/smart_analytics_platform#readme",
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
